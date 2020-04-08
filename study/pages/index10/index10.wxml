@@ -1,0 +1,15 @@
+<view>
+  <!-- image 是web中img和背景图的结合体 -->
+  <image mode='scaleToFill' src='/images/imageTest.png'></image>
+</view>
+<view>
+  <!-- 长边拉伸 -->
+  <image mode='aspectFit' src='/images/imageTest.png'></image>
+</view>
+<view>
+  <!-- 短边拉伸,居中显示 -->
+  <image mode='aspectFill' src='/images/imageTest.png'></image>
+</view>
+<view>
+  <image mode='widthFix' src='/images/imageTest.png'></image>
+</view>

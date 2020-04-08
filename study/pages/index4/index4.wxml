@@ -1,0 +1,12 @@
+<view>
+  <view wx:for="{{arr}}" wx:key="index">
+    {{index}}:{{item.label}}
+  </view>
+  <view wx:for="{{person}}" wx:for-index='key' wx:key='key'>
+    {{key}}:{{item}}
+  </view>
+
+  <block wx:for="{{arr}}" wx:key="index">
+    {{index}}:{{item.label}}
+  </block>
+</view>

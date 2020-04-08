@@ -1,0 +1,10 @@
+<view>
+  <view>{{message}}</view>
+  <view>isBoy {{isBoy}}</view>
+  <view>num {{num}}</view>
+  <view>person {{person.name}}-{{person.age}}</view>
+  <view data-id="{{title}}">{{title}}</view>
+  <view>
+    <checkbox checked="{{isBoy}}">男孩</checkbox>
+  </view>
+</view>

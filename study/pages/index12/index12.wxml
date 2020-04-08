@@ -1,0 +1,12 @@
+<!-- 保留当前页面,跳到应用内的某个页面,但不能跳到tabBar -->
+<navigator url='/pages/index11/index11' open-type='navigate'>navigate</navigator>
+
+<!-- 关闭当前页面,跳到应用内的某个页面,但不能跳到tabBar -->
+<navigator url='/pages/index11/index11' open-type='redirect'>redirect</navigator>
+
+<!-- 跳到tabBar页面,并关闭其他非tabBar页面 -->
+<navigator url='/pages/index/index' open-type='switchTab'>switchTab</navigator>
+
+<!-- 关闭所有的页面,打开应用内的某个页面 -->
+<navigator url='/pages/index/index' open-type='reLaunch'>reLaunch1</navigator>
+<navigator url='/pages/index11/index11' open-type='reLaunch'>reLaunch2</navigator>

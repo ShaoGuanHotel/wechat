@@ -1,0 +1,17 @@
+<swiper autoplay indicator-dots indicator-color="blue" indicator-active-color="red" circular>
+  <swiper-item>
+    <image mode="widthFix" src='/images/swiper/1.webp'></image>
+  </swiper-item>
+  <swiper-item>
+    <image mode="widthFix" src='/images/swiper/2.webp'></image>
+  </swiper-item>
+  <swiper-item>
+    <image mode="widthFix" src='/images/swiper/3.webp'></image>
+  </swiper-item>
+  <swiper-item>
+    <image mode="widthFix" src='/images/swiper/4.jpg'></image>
+  </swiper-item>
+  <swiper-item>
+    <image mode="widthFix" src='/images/swiper/5.webp'></image>
+  </swiper-item>
+</swiper>

@@ -1,0 +1,7 @@
+<view>
+  <view>
+    <checkbox checked="{{!isChecked?true:false}}"></checkbox>
+  </view>
+  <view>{{1+10}}</view>
+  <view wx:if="{{num>=10}}">>=10</view>
+</view>

@@ -1,0 +1,7 @@
+<view hover-class="hover_class">hover</view>
+<view>
+  <text selectable>index9 text</text>
+</view>
+<view>
+  <text decode>decode&nbsp;text</text>
+</view>

@@ -1,0 +1,16 @@
+/* 
+rpx:response px(响应式像素)
+规定任何屏幕宽度都是750 rpx
+当屏幕宽度是350px的时候
+1rpx = 0.5px = 1物理像素
+*/
+.box1{
+  width: 50px;
+  height: 50px;
+  background: blue;
+}
+.box2{
+  width: 50rpx;
+  height: 50rpx;
+  background: yellow;
+}
