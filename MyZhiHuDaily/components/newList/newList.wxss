@@ -1,0 +1,34 @@
+.list-item {
+  position: relative;
+  min-height: 150rpx;
+  overflow: hidden;
+  width: 90%;
+  margin: 30rpx 2%;
+  padding: 10px;
+  border: 1px solid #efefef;
+  box-shadow: 0 1px 1px #ccc;
+}
+
+
+.list-spliter {
+  font-size: 30rpx;
+  background: #eee;
+  padding: 20rpx;
+  color: #555;
+}
+
+.content {
+  margin-left: 180rpx;
+}
+
+.content text {
+  font-size: 35rpx;
+}
+
+.has-img .cover {
+  width: 150rpx;
+  height: 150rpx;
+  position: absolute;
+  left: 10px;
+  top: 10px;
+}

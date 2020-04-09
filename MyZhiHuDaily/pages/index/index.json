@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "slider":"/components/slider/slider",
+    "newList":"/components/newList/newList"
+  }
+}

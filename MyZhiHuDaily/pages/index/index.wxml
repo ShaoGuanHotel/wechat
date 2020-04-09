@@ -1,0 +1,4 @@
+<scroll-view class='scroll-view' scroll-y='true'>
+  <slider style="margin: 0" datas="{{siderData}}"></slider>
+  <newList data='{{news}}'></newList>
+</scroll-view>

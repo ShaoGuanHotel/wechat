@@ -1,0 +1,13 @@
+<view class='news-list'>
+  <block wx:for='{{data}}' wx:key='id'>
+    <view class='list-item {{item.image ? "has-img" : ""}}' wx:if='{{!item.isLabel}}' data-item='{{item}}'>
+      <view class='content'>
+        {{item.title}}
+      </view>
+      <image wx:if='{{item.image}}' src='{{item.image}}' class='cover'></image>
+    </view>
+    <view class='list-spliter' wx:else>
+      <text>{{item.title}}</text>
+    </view>
+  </block>
+</view>
